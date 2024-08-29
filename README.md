@@ -1,41 +1,71 @@
-Plant Store App
-Welcome to the Plant Store App! This web application allows users to explore, favorite, and purchase various plants. Designed with a clean and intuitive interface, the app provides a seamless shopping experience across multiple languages: English (EN), Russian (RU), and Arabic (AR).
+# Plant Store App
 
-Website Link: Plant Store
+Welcome to the Plant Store App! This web application allows users to explore, favorite, and purchase various plants. The app provides a seamless shopping experience with support for multiple languages: English (EN), Russian (RU), and Arabic (AR).
 
-Pages Overview
-Home Page
+[Visit the Plant Store App](https://plante-store.vercel.app/)
 
-Description: The Home page is the starting point for users visiting the Plant Store. It showcases a wide variety of plants available for purchase, neatly organized for easy browsing.
-Features:
-Featured Plants: Display a selection of popular or recommended plants.
-Search Functionality: Quickly find specific plants using the search bar.
-Language Switcher: Easily toggle between English, Russian, and Arabic to change the language of the website.
-Favorite Page
+## Table of Contents
 
-Description: The Favorite page allows users to save plants they are interested in. This helps users keep track of plants they may want to purchase later.
-Features:
-View Favorites: See a list of all plants that have been marked as favorites.
-Remove from Favorites: Users can remove plants from their favorites list as needed.
-Quick Navigation: Click on any favorite plant to view its details or add it to the cart.
-Cart Page
+- [Features](#features)
+- [Pages Overview](#pages-overview)
+  - [Home Page](#home-page)
+  - [Favorite Page](#favorite-page)
+  - [Cart Page](#cart-page)
+  - [Payment Page](#payment-page)
+- [Multilingual Support](#multilingual-support)
+- [Installation and Setup](#installation-and-setup)
+- [Contributing](#contributing)
+- [License](#license)
 
-Description: The Cart page is where users can view plants they have selected for purchase, modify their selection, and proceed to checkout.
-Features:
-Plant Details: Display the plants added to the cart along with their quantities and prices.
-Edit Cart: Update the quantity of each plant or remove them entirely from the cart.
-Total Calculation: Automatically calculate the total cost based on selected items.
-Payment Page
+## Features
 
-Description: The Payment page is the final step where users enter their payment information and confirm their purchase.
-Features:
-Secure Payment Form: Users can enter their credit card details, billing information, and other required fields securely.
-Order Summary: Display an overview of the order, including all items and the total cost.
-Confirmation Button: Complete the purchase and receive a confirmation message.
-Multilingual Support
-Our app provides multilingual support, allowing users to switch between English (EN), Russian (RU), and Arabic (AR) effortlessly. The language selector is prominently displayed at the top of each page, ensuring easy access and a personalized browsing experience.
+- **Multilingual support**: Easily switch between English, Russian, and Arabic.
+- **User-friendly interface**: Designed to be intuitive and easy to navigate.
+- **Favorites management**: Save and manage your favorite plants.
+- **Secure payment processing**: Seamlessly complete your purchases with secure payment methods.
 
-How to Use the Language Selector
-Locate the Language Selector: Find the language selector in the top right corner of the website.
-Choose Your Language: Select your preferred language (EN, RU, AR) from the dropdown menu.
-Seamless Translation: The website will instantly translate all content into the selected language.
+## Pages Overview
+
+### Home Page
+
+The Home page is the main entry point of the Plant Store App, showcasing a variety of plants available for purchase.
+
+- **Featured Plants**: Browse through a selection of featured plants.
+- **Search Functionality**: Quickly find specific plants using the search bar.
+- **Language Switcher**: Change the language of the website with a simple dropdown menu.
+
+### Favorite Page
+
+The Favorite page allows users to save plants they are interested in, making it easy to find them later.
+
+- **View Favorites**: Access a list of all plants marked as favorites.
+- **Remove from Favorites**: Easily remove plants from your favorites list.
+- **Quick Navigation**: Directly navigate to the plant's detail page from the favorites list.
+
+### Cart Page
+
+The Cart page displays all the plants selected for purchase, allowing users to review and modify their cart before checkout.
+
+- **View Cart Items**: See all plants added to the cart with their images, names, prices, and quantities.
+- **Update Cart**: Adjust quantities or remove items from the cart.
+- **Total Price Calculation**: Automatically updates the total price based on the selected items.
+
+### Payment Page
+
+The Payment page is where users can securely enter payment information and complete their purchase.
+
+- **Secure Payment Form**: Input fields for credit card details, billing address, and other necessary information.
+- **Order Summary**: Review the items in the cart and total cost before confirming the purchase.
+- **Confirmation**: Complete the transaction and receive an order confirmation.
+
+## Multilingual Support
+
+The Plant Store App supports three languages: English (EN), Russian (RU), and Arabic (AR). Users can switch languages using the dropdown menu available on each page, providing a personalized shopping experience.
+
+### How to Use the Language Selector
+
+1. **Locate the Language Selector**: Find the language selector in the top right corner of the website.
+2. **Select Your Preferred Language**: Choose your preferred language (EN, RU, AR) from the dropdown menu.
+3. **Instant Translation**: The app will instantly translate all content into the selected language.
+
+
