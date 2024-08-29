@@ -1045,10 +1045,22 @@ function validation(){
     cardNumber.addEventListener("input" , validateForm);
     cardDate.addEventListener("input" , validateForm);
     cardCvs.addEventListener("input" , validateForm);
+  
     payNow.addEventListener("click" ,()=> {
-        alert("Спасибо за заказ, ваш заказ прибудет через 14 дней.");
+        const languageSelect = document.querySelector('.languages');
+        if (languageSelect.value === 'ru') {
+            alert("Спасибо за заказ, ваш заказ прибудет через 14 дней.");
+
+        } else if (languageSelect.value === 'en') {
+            alert("Thank you for your order, your order will arrive in 14 days.");
+
+        } else if (languageSelect.value === 'ar') {
+            alert("شكرًا لك على طلبك، سيصل طلبك خلال 14 يومًا");
+        }
+
+        
         paymentPage.style.display = "none";
-        document.querySelector(".card-info").style.display = "none";
+        document.querySelector(".card-info").style.display = "block";
 
     })
  
@@ -1058,7 +1070,6 @@ function validation(){
 validation();
 
 
-// localStorage.clear();
 
 transaltion();
 
@@ -1080,4 +1091,3 @@ function topFunction(){
 }
 
 
-// localStorage.clear();
