@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Plante Store</title>
+</head>
+<body>
+    <header>
+        <div class="left-section">
+            <div class="loction">
+                <span class="place" style="display: block;">местоположение</span> 
+                <p class="city"><span class="material-symbols-outlined">location_on</span>
+                    <span class="city-name">Екатеринбург, россия</span></p>
+            </div>
+           <!-- <div class="search">
+            <span class="material-symbols-outlined" id="icon-search">search </span>
+            <input type="search" placeholder="поиск">
+            <span class="material-symbols-outlined" id="fliter-search">filter_center_focus </span>
+           </div> -->
+        </div>
+
+        <div class="right-section">
+            <p class="active" id="home"><span class="material-symbols-rounded" >home</span></p>
+            <p id="favorite"><span class="material-symbols-rounded" >favorite</span></p>
+            <p id="shopping-cart"><span class="material-symbols-rounded" >shopping_cart</span></p>
+            <select name="langauges" class="languages">
+                <option value="ru">Russian</option>
+                <option value="ar">Arabic</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="home-page">
+       <div class="special-offers">
+            <h3 class="special">специальные предложения</h3>
+            <img src="images/flower .png" alt="" class="spring-has-arrived">
+            <p class="discount">Скидка 15%</p>
+            <button class="go-to-discount">заказывайте прямо сейчас</button>
+        </div>
+        <div class="all-section">
+            <div class="recommend-div">
+                <h4 class="recommend">рекомендую для вас</h4>
+                <div class="buttons">
+                    <button class="active" id="all">Все</button>
+                    <button class="" id="one-flower">один цветок</button>
+                    <button class="" id="discounts">Скидки</button>
+                    
+                </div>
+            </div>
+            <button class="go-up" onclick="topFunction()"><img src="up-arrow.svg" alt=""></button>
+            <div class="all-product show" id="all-product">
+                
+                <div class="bouquet">
+                    <div class="product-01" id="product">
+                    
+                        <img src="images/bouquet 1.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 5<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p > <span class="price-word">Цена... </span><span class="price">850 ₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-01">Роскошный и ароматный букет для особых случаев.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                        
+                    </div>
+                    <div class="product-02" id="product">
+                        <img src="images/bouquet 2.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4.9<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">1399₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-02">Изысканный цветок, который впечатлит любого.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                    <div class="product-03" id="product">
+                        <img src="images/bouquet 3.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4.7<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">1299₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-03"> Яркий и свежий букет, создающий атмосферу праздника.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                    <div class="product-04" id="product">
+                        <img src="images/bouquet.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 3.6<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">540₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-04">Стильный букет с уникальным сочетанием цветов.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                    <div class="product-05" id="product">
+                        <img src="images/bouquet 8.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4.3<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">1400₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-05">Классический букет с элегантными розами.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                    <div class="product-06" id="product">
+                        <img src="images/bouquet 9.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4.1<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">1340 ₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-06">Великолепный цветок, который станет украшением любого интерьера.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                    <div class="product-07" id="product">
+                        <img src="images/bouquet 10.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4.7<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">1599 ₽  </span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-07">Прекрасный букет для любого случая.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+    
+                    </div>
+                </div>
+               <hr>
+                <div class="one-flower-div show" id="one-flower-div">
+                    <div class="product-08" id="product">
+                        <img src="images/one flower (1).jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">670 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-08">Уникальный букет для особого случая. Цветы, которые впечатляют.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-09" id="product">
+                        <img src="images/one flower (2).jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 3<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">540 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-09">Идеальный выбор для подарка. Элегантный и стильный.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-10" id="product">
+                        <img src="images/one flower (3).jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 5<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">800 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-10">Великолепное оформление для любого праздника. Будет радовать глаз.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-11" id="product">
+                        <img src="images/one flower (4).jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена... </span><span class="price">750 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте: </h5>
+                            <p class="product-descraption-11">Изысканный букет, который добавит ярких красок в ваш день.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="flower-discount show" id="flower-discount">
+                    <div class="product-12" id="product">
+                        <img src="images/discound 1.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена: </span><span class="price">340 ₽</span> <span class="before">391 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте:</h5>
+                            <p class="product-descraption-12">Специальное предложение на уникальный продукт. Отличное качество по сниженной цене.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-13" id="product">
+                        <img src="images/discound 6.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 5<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена: </span><span class="price">320 ₽</span> <span class="before">370 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте:</h5>
+                            <p class="product-descraption-13">Прекрасный выбор для подарка. Элегантный и стильный. Скидка только сегодня!</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-14" id="product">
+                        <img src="images/discound 5.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 4<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена: </span><span class="price">330 ₽</span> <span class="before">380 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте:</h5>
+                            <p class="product-descraption-14">Идеальное решение для особого случая. Отличное предложение по отличной цене.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <div class="product-15" id="product">
+                        <img src="images/discound 4.jpeg" alt="">
+                        <div class="live"><span class="material-symbols-rounded" id="live">favorite</span></div>
+                        <div class="descration">
+                            <div class="rate"> 5<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#fdbb13"><g><rect fill="none" height="24" width="24" x="0"/><polygon points="14.43,10 12,2 9.57,10 2,10 8.18,14.41 5.83,22 12,17.31 18.18,22 15.83,14.41 22,10"/></g></svg></div>
+                            <p> <span class="price-word">Цена: </span><span class="price">300 ₽</span> <span class="before">350 ₽</span></p>
+                            <h5 class="product-details">Подробная информация о продукте:</h5>
+                            <p class="product-descraption-15">Красивый и доступный. Прекрасное качество и уникальный дизайн.</p>
+                        </div>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>                    
+
+                </div>
+                
+                
+
+                    
+            </div>
+        </div>
+
+    </div>
+
+    <div class="favorite-products-page">
+        
+        
+    </div>
+
+    <div class="cart-page">
+    </div>
+
+    
+    <div class="payment-page">
+  
+
+        <button class="close"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></button>
+        <div class="payment">
+            <h2 class="payment-title">информация</h2>
+            <div class="information-for-products">
+                <p class="message-payment">Вы купили <span class="count-products" style="color: green;">--</span> товаров по определенной  <span class="total-pric" style="color: green;">--</span></p>
+            </div>
+            <div class="inputs">
+                <input type="text" class="client-name" placeholder="фамилия имя" maxlength="50" required>
+                <input type="text" class="client-number" placeholder="+7 123 456 78 90" maxlength="16" required>
+                <input type="email" class="client-email" placeholder="example@example.ex" maxlength="50" required>
+                <input type="text" class="client-addres" placeholder="Ваш адресс" maxlength="100" required>
+                <h3 class="payment-word">оплата</h3>
+                <div class="payment-methods">
+                    <h4 class="add-card">добавить карту</h4>
+                    <h4><img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg" class="PayPal" alt="PayPal Logo"></h4>
+                    <h4><img src="images/qiwi.png" alt="" class="qiwi"></h4>
+                    <h4><img src="images/alipay.png" alt="" class="alipay"></h4>
+                </div>
+                <div class="card-info">
+                    <input type="text" class="card-number" placeholder="0000 0000 0000 0000" maxlength="19" required>
+                    <input type="text" class="card-date" placeholder="00/00" maxlength="5" required>
+                    <input type="password" class="card-cvs" placeholder="000" maxlength="3" required>
+                </div>
+                <div class="not-available">
+                    <p class="not-availavel-message"> <span>Извините</span> этот способ оплаты сейчас недоступен,
+                         мы работаем над тем, чтобы он стал доступен в ближайшее время.</p>
+                </div>
+                <button class="pay-now" disabled>заплатить</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+            <p><a href="">Privacy Policy</a> | <a href="">Terms of Service</a></p>
+            <div class="social-media">
+                <a href="https://github.com/ramynady78" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/ramynady8" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://vk.com/id704406318" target="_blank"><i class="fab fa-vk"></i></a>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-phone-alt"></i> +7 (982) 728-8614 |  +20 (10) 045-32537</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:andmohamedramy@gmail.com">andmohamedramy@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
