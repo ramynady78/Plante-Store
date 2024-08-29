@@ -493,10 +493,10 @@ function transaltion(){
             for(let i =0 ; i < 15 ; i++){
                 if(document.querySelector(`.product-descraption-0${i+1}`)){
                     productDescraption[i+1] = document.querySelector(`.product-descraption-0${i+1}`);
-                    productDescraption[i+1].innerHTML = transaltion.ar[`productDescraption_${i}`];
+                    productDescraption[i+1].innerHTML = transaltion.ar[`productDescraption_${i+1}`];
                 }else if(document.querySelector(`.product-descraption-${i+1}`)){
                     productDescraption[i+1] = document.querySelector(`.product-descraption-${i+1}`);
-                    productDescraption[i+1].innerHTML = transaltion.ar[`productDescraption_${i}`];
+                    productDescraption[i+1].innerHTML = transaltion.ar[`productDescraption_${i+1}`];
                 }
 
             }  
