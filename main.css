@@ -253,7 +253,6 @@ header .right-section select option{
     margin:0 auto;
     padding: 5px;
     border-radius: 10px;
-    color: black;
 
 }
 .all-section .recommend{
@@ -284,6 +283,7 @@ header .right-section select option{
     cursor: pointer;
     height: 60px;
     font-size: 20px;
+    color: black;
 }
 
 .all-section .buttons  .active{
